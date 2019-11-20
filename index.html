@@ -49,10 +49,10 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#">Login</a>
+                  <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#LoginModal">Login</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#">Registro</a>
+                  <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#RegisterModal">Registro</a>
                 </li>
               </ul>
             </div>
@@ -437,6 +437,71 @@
          </div>
       </div>
       <!-- /modal 6 -->
+
+      <!-- Modal Login -->
+      <div class="portfolio-modal modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
+               <div class="rl"></div>
+               </div>
+            </div>
+            <div class="container">
+               <form action="" class="form-signin">
+                  <img class="logo-navi" src="assets/images/logo-120.jpeg" alt="" width="120" height="67">
+                  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                  <label for="inputEmail" class="sr-only">Email address</label>
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                  <div class="checkbox mb-3">
+                     <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                     </label>
+                     </div>
+                     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                     <p class="mt-5 mb-3 text-muted"><a data-toggle="modal" href="#RegisterModal">Register</a></p>
+               </form>
+            </div>
+         </div>
+         </div>
+      </div>
+       <!-- /modal Login -->
+      <!-- Modal Register -->
+      <div class="portfolio-modal modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
+               <div class="rl"></div>
+               </div>
+            </div>
+            <div class="container">
+               <form class="form-register">
+                     <img class="logo-navi" src="assets/images/logo-120.jpeg" alt="" width="120" height="67">
+                     <h1>Registro Nuevo</h1>
+                     <div class="form-name">
+                        <label for="exampleInputEmail1">Ingresa tu nombre </label>
+                        <input type="name" class="form-control" id="InputName" aria-describedby="NameHelp" placeholder="Enter Name">
+                        <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo.</small>
+                     </div>
+                     <div class="form-email">
+                           <label for="InputEmail">Ingresa tu Email</label>
+                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                           <small id="emailHelp" class="form-text text-muted">Esta informacion es confidencial .</small>
+                           </div>
+                     <div class="form-password">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Submit</button>
+               </form>
+            </div>
+         </div>
+         </div>
+      </div>
+       <!-- /modal Register -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
