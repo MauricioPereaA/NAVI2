@@ -1,119 +1,169 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Custom fonts for the project -->
-    <link href="three-party/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Sirin+Stencil&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    
-    <!-- Title -->
-    <title>NAVI</title>
-  </head>
-  <body id="page-top">
-      <!-- Navigation -->
-      <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
-         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-               <h1 class="logo-text">NAVI</h1>
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-             <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item ">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+
+   <!-- Custom fonts for the project -->
+   <link href="three-party/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Sirin+Stencil&display=swap"
+      rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+   <!-- Title -->
+   <title>NAVI</title>
+</head>
+
+<body id="page-top">
+   <!-- Navigation -->
+   <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+         <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <h1 class="logo-text">NAVI</h1>
+         </a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+               <li class="nav-item ">
                   <a class="nav-link js-scroll-trigger" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
+               </li>
+               <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#">Descarga</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle js-scroll-trigger" href="#" id="AcercaDe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Acerca De
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle js-scroll-trigger" href="#" id="AcercaDe" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Acerca De
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Bykes</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="runners.html">Runners</a>
+                     <a class="dropdown-item" href="bikes.html">Bykes</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="runners.html">Runners</a>
                   </div>
-                </li>
-                <li class="nav-item">
+               </li>
+               <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#LoginModal">Login</a>
-                </li>
-                <li class="nav-item">
+               </li>
+               <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#RegisterModal">Registro</a>
-                </li>
-              </ul>
-            </div>
+               </li>
+            </ul>
          </div>
-      </nav>
-      <!-- /Navigation -->
-      <!-- Header -->
-      <header class="masthead">
-         <div class="overlay">
-            <div class="container">
-              <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a NAVI! Tu asistente de rutas</div>
-                <div class="intro-heading text-uppercase">Una ruta segura de mano en mano</div>
-                <a class="btn btn-navi btn-xl text-uppercase js-scroll-trigger" href="#services">Cuentame más</a>
-              </div>
+      </div>
+   </nav>
+   <!-- /Navigation -->
+   <!-- Header -->
+   <header class="masthead">
+      <div class="bd-example">
+         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+               <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="./assets/bikes-images/City-bike.jpg" class="img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>First slide label</h5>
+                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="./assets/bikes-images/Road-bike.jpg" class="img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Second slide label</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="./assets/bikes-images/Mountain-bike.jpg" class="img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Third slide label</h5>
+                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="./assets/bikes-images/Walk-bike.jpg" class="img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Four slide label</h5>
+                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+               </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+            </a>
          </div>
-       </header>
-      <!-- /Header -->
-      <!-- App Services -->
-      <section class="page-section" id="services">
-         <div class="container">
+      </div>
+   </header>
+   <!-- /Header -->
+   <!-- App Services -->
+   <section class="page-section" id="services">
+      <div class="container">
          <div class="row">
             <div class="col-lg-12 text-center">
                <h2 class="section-heading text-uppercase">App Features</h2>
-               <h3 class="section-subheading text-muted">Crea tus rutas personalizadas y compartelas con tus amigos!</h3>
+               <h3 class="section-subheading text-muted">Crea tus rutas personalizadas y compartelas con tus amigos!
+               </h3>
             </div>
          </div>
          <div class="row text-center">
             <div class="col-md-4">
                <span class="fa-stack fa-4x">
-               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-               <i class="fas fa-bicycle fa-stack-1x fa-inverse"></i>
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-bicycle fa-stack-1x fa-inverse"></i>
                </span>
                <h4 class="service-heading">Bikers</h4>
-               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                  architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
             <div class="col-md-4">
                <span class="fa-stack fa-4x">
-               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-               <i class="fas fa-running fa-stack-1x fa-inverse"></i>
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-running fa-stack-1x fa-inverse"></i>
                </span>
                <h4 class="service-heading">Runners</h4>
-               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                  architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
             <div class="col-md-4">
                <span class="fa-stack fa-4x">
-               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-               <i class="fas fa-people-carry fa-stack-1x fa-inverse"></i>
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-people-carry fa-stack-1x fa-inverse"></i>
                </span>
                <h4 class="service-heading">Comunidad</h4>
-               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                  architecto quo inventore harum ex magni, dicta impedit.</p>
             </div>
          </div>
-         </div>
-      </section>
-      <!-- /App Services -->
+      </div>
+   </section>
+   <!-- /App Services -->
 
-      <!-- Portfolio Grid -->
-      <section class="bg-light page-section" id="portfolio">
-         <div class="container">
+   <!-- Portfolio Grid -->
+   <section class="bg-light page-section" id="portfolio">
+      <div class="container">
          <div class="row">
             <div class="col-lg-12 text-center">
                <h2 class="section-heading text-uppercase">App Functions</h2>
@@ -123,88 +173,88 @@
          <div class="row">
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/registrobicis.jpg" alt="">
+                  <img class="img-fluid" src="assets/images/registrobicis.jpg" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Registro de Bicibletas</h4>
+                  <h4>Registro de Bicibletas</h4>
                </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/share-route.png" alt="">
+                  <img class="img-fluid" src="assets/images/share-route.png" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Comparte tu ruta</h4>
+                  <h4>Comparte tu ruta</h4>
                </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/reportevial.jpg" alt="">
+                  <img class="img-fluid" src="assets/images/reportevial.jpg" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Reporte Vial</h4>
+                  <h4>Reporte Vial</h4>
                </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/puntos-seguros.jpg" alt="">
+                  <img class="img-fluid" src="assets/images/puntos-seguros.jpg" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Puntos Seguros</h4>
+                  <h4>Puntos Seguros</h4>
                </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/boton-de-panico.jpg" alt="">
+                  <img class="img-fluid" src="assets/images/boton-de-panico.jpg" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Botón de Panico</h4>
+                  <h4>Botón de Panico</h4>
                </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-               <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                     <i class="fas fa-plus fa-3x"></i>
+                  <div class="portfolio-hover">
+                     <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                     </div>
                   </div>
-               </div>
-               <img class="img-fluid" src="assets/images/eventos deportivos.png" alt="">
+                  <img class="img-fluid" src="assets/images/eventos deportivos.png" alt="">
                </a>
                <div class="portfolio-caption">
-               <h4>Crea eventos en tu Comunidad</h4>
+                  <h4>Crea eventos en tu Comunidad</h4>
                </div>
             </div>
          </div>
-         </div>
-      </section>
-      <!-- /Portafolio -->
-      <!-- Footer -->
-      <footer id="footer" class="pb-4 pt-4"> 
+      </div>
+   </section>
+   <!-- /Portafolio -->
+   <!-- Footer -->
+   <footer id="footer" class="pb-4 pt-4">
       <div class="container">
          <div class="row text-center">
             <div class="col-12 col-lg">
@@ -221,213 +271,213 @@
             </div>
          </div>
       </div>
-      </footer>
-      <!-- /footer -->
-      <!-- Modal 1 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
+   </footer>
+   <!-- /footer -->
+   <!-- Modal 1 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
                   <div class="rl"></div>
-                  </div>
                </div>
-               <div class="container">
-                  <div class="row">
+            </div>
+            <div class="container">
+               <div class="row">
                   <div class="col-lg-8 mx-auto">
                      <div class="modal-body">
                         <!-- Project Details Go Here -->
                         <h2 class="text-uppercase">Registro de Bicicletas</h2>
                         <img class="img-fluid d-block mx-auto" src="assets/images/registrobicis.jpg" alt="">
-                        <p>Podrás registrar tu bicicleta, para poderla 
-                           reportar por medio la de plataforma en caso de 
-                           que sufras un robo. Alguna persona que quiera 
-                           comprar una bicicleta podrá revisar este registro 
+                        <p>Podrás registrar tu bicicleta, para poderla
+                           reportar por medio la de plataforma en caso de
+                           que sufras un robo. Alguna persona que quiera
+                           comprar una bicicleta podrá revisar este registro
                            donde diga si la bici se está vendiendo legalmente
-                            o tiene reporte de robo.  Esto también podrá ser 
-                            útil para las tiendas de ciclismo ya que podrán 
-                            cargar sus bicicletas en esta plataforma y cuando 
-                            las vendan pasar el estatus de dueño al comprador.</p>
+                           o tiene reporte de robo. Esto también podrá ser
+                           útil para las tiendas de ciclismo ya que podrán
+                           cargar sus bicicletas en esta plataforma y cuando
+                           las vendan pasar el estatus de dueño al comprador.</p>
                         <button class="btn btn-primary" data-dismiss="modal" type="button">
-                        <i class="fas fa-times"></i>
-                        Close</button>
+                           <i class="fas fa-times"></i>
+                           Close</button>
                      </div>
                   </div>
-                  </div>
                </div>
             </div>
-            </div>
          </div>
-      <!-- /modal 1 -->
+      </div>
+   </div>
+   <!-- /modal 1 -->
 
-      <!-- Modal 2 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
+   <!-- Modal 2 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
          <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                <div class="lr">
-               <div class="rl"></div>
+                  <div class="rl"></div>
                </div>
             </div>
             <div class="container">
                <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                     <!-- Project Details Go Here -->
-                     <h2 class="text-uppercase">Comparte tu Ruta</h2>
-                     <img class="img-fluid d-block mx-auto" src="assets/images/share-route.png" alt="">
-                     <p>Podrás cargar tu ruta de diario la cual podrás 
-                        compartir con tus amigos, haciendo indicaciones de 
-                        que horarios son amigables y seguros para esas rutas.
-                         Puedes cargar trayectos completos de entrenamiento o
-                          simples salidas para darle mantenimiento al cuerpo 
-                          por la noche en tu zona segura.</p>
-                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                     <i class="fas fa-times"></i>
-                     Close</button>
+                  <div class="col-lg-8 mx-auto">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2 class="text-uppercase">Comparte tu Ruta</h2>
+                        <img class="img-fluid d-block mx-auto" src="assets/images/share-route.png" alt="">
+                        <p>Podrás cargar tu ruta de diario la cual podrás
+                           compartir con tus amigos, haciendo indicaciones de
+                           que horarios son amigables y seguros para esas rutas.
+                           Puedes cargar trayectos completos de entrenamiento o
+                           simples salidas para darle mantenimiento al cuerpo
+                           por la noche en tu zona segura.</p>
+                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                           <i class="fas fa-times"></i>
+                           Close</button>
+                     </div>
                   </div>
                </div>
-               </div>
             </div>
-         </div>
          </div>
       </div>
-      <!-- Modal 2 -->
-   
-      <!-- Modal 3 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-               <div class="lr">
-               <div class="rl"></div>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                     <!-- Project Details Go Here -->
-                     <h2 class="text-uppercase">Reporte Vial</h2>
-                     <img class="img-fluid d-block mx-auto" src="assets/images/reportevial.jpg" alt="">
-                     <p>Puedes en cualquier momento reportar eventos, zonas de riesgo,
-                         en alguna ruta que tomes o fuera de las rutas. Esto podrá 
-                         retroalimentar a otros usuarios para evitar esa zona o el 
-                         horario en cuestión.</p>      
-                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                     <i class="fas fa-times"></i>
-                     Close</button>
-                  </div>
-               </div>
-               </div>
-            </div>
-         </div>
-         </div>
-      </div>
-      <!-- Modal 3 -->
-   
-      <!-- Modal 4 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-               <div class="lr">
-               <div class="rl"></div>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                     <!-- Project Details Go Here -->
-                     <h2 class="text-uppercase">Puntos Seguros</h2>
-                     <img class="img-fluid d-block mx-auto" src="assets/images/puntos-seguros.jpg" alt="">
-                     <p>Podrás ver los puntos seguros en caso de que 
-                        los necesites indicados en el mapa y como llegar
-                         a ellos de forma más rápida.  Casetas de policía,
-                          hospitales, primeros auxilios. Así como sus 
-                          teléfonos de contacto.</p>
-                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                     <i class="fas fa-times"></i>
-                     Close</button>
-                  </div>
-               </div>
-               </div>
-            </div>
-         </div>
-         </div>
-      </div>
-      <!-- /modal 4 -->
-   
-      <!-- Modal 5 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-               <div class="lr">
-               <div class="rl"></div>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                     <!-- Project Details Go Here -->
-                     <h2 class="text-uppercase">Botón de Panico</h2>
-                     <img class="img-fluid d-block mx-auto" src="assets/images/boton-de-panico.jpg" alt="">
-                     <p>Dicho botón será accesible en cualquier momento, este mandará tu 
-                        ubicación datos de emergencia a las personas que registres en 
-                        tu registro inicial.</p>
-                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                     <i class="fas fa-times"></i>
-                     Close</button>
-                  </div>
-               </div>
-               </div>
-            </div>
-         </div>
-         </div>
-      </div>
-      <!-- /modal 5 -->
+   </div>
+   <!-- Modal 2 -->
 
-      <!-- Modal 6 -->
-      <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
+   <!-- Modal 3 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
          <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                <div class="lr">
-               <div class="rl"></div>
+                  <div class="rl"></div>
                </div>
             </div>
             <div class="container">
                <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                     <!-- Project Details Go Here -->
-                     <h2 class="text-uppercase">Crea Eventos en tu Comunidad</h2>
-                     <img class="img-fluid d-block mx-auto" src="assets/images/eventos deportivos.png" alt="">
-                     <p>Crea eventos en el calendario, donde la comunidad mas cercana a
-                        ti, sera notificada para que asistan!!
-                     </p>
-                     <button class="btn btn-primary" data-dismiss="modal" type="button">
-                     <i class="fas fa-times"></i>
-                     Close</button>
+                  <div class="col-lg-8 mx-auto">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2 class="text-uppercase">Reporte Vial</h2>
+                        <img class="img-fluid d-block mx-auto" src="assets/images/reportevial.jpg" alt="">
+                        <p>Puedes en cualquier momento reportar eventos, zonas de riesgo,
+                           en alguna ruta que tomes o fuera de las rutas. Esto podrá
+                           retroalimentar a otros usuarios para evitar esa zona o el
+                           horario en cuestión.</p>
+                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                           <i class="fas fa-times"></i>
+                           Close</button>
+                     </div>
                   </div>
-               </div>
                </div>
             </div>
          </div>
-         </div>
       </div>
-      <!-- /modal 6 -->
+   </div>
+   <!-- Modal 3 -->
 
-      <!-- Modal Login -->
-      <div class="portfolio-modal modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
+   <!-- Modal 4 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
          <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                <div class="lr">
-               <div class="rl"></div>
+                  <div class="rl"></div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2 class="text-uppercase">Puntos Seguros</h2>
+                        <img class="img-fluid d-block mx-auto" src="assets/images/puntos-seguros.jpg" alt="">
+                        <p>Podrás ver los puntos seguros en caso de que
+                           los necesites indicados en el mapa y como llegar
+                           a ellos de forma más rápida. Casetas de policía,
+                           hospitales, primeros auxilios. Así como sus
+                           teléfonos de contacto.</p>
+                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                           <i class="fas fa-times"></i>
+                           Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /modal 4 -->
+
+   <!-- Modal 5 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
+                  <div class="rl"></div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2 class="text-uppercase">Botón de Panico</h2>
+                        <img class="img-fluid d-block mx-auto" src="assets/images/boton-de-panico.jpg" alt="">
+                        <p>Dicho botón será accesible en cualquier momento, este mandará tu
+                           ubicación datos de emergencia a las personas que registres en
+                           tu registro inicial.</p>
+                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                           <i class="fas fa-times"></i>
+                           Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /modal 5 -->
+
+   <!-- Modal 6 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
+                  <div class="rl"></div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2 class="text-uppercase">Crea Eventos en tu Comunidad</h2>
+                        <img class="img-fluid d-block mx-auto" src="assets/images/eventos deportivos.png" alt="">
+                        <p>Crea eventos en el calendario, donde la comunidad mas cercana a
+                           ti, sera notificada para que asistan!!
+                        </p>
+                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                           <i class="fas fa-times"></i>
+                           Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /modal 6 -->
+
+   <!-- Modal Login -->
+   <div class="portfolio-modal modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+               <div class="lr">
+                  <div class="rl"></div>
                </div>
             </div>
             <div class="container">
@@ -435,64 +485,82 @@
                   <img class="logo-navi" src="assets/images/logo-120.jpeg" alt="" width="120" height="67">
                   <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
                   <label for="inputEmail" class="sr-only">Email address</label>
-                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required=""
+                     autofocus="">
                   <label for="inputPassword" class="sr-only">Password</label>
                   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
                   <div class="checkbox mb-3">
                      <label>
                         <input type="checkbox" value="remember-me"> Remember me
                      </label>
-                     </div>
-                     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                     <p class="mt-5 mb-3 text-muted"><a data-toggle="modal" href="#RegisterModal">Register</a></p>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                  <p class="mt-5 mb-3 text-muted"><a data-toggle="modal" href="#RegisterModal">Register</a></p>
                </form>
             </div>
          </div>
-         </div>
       </div>
-       <!-- /modal Login -->
-      <!-- Modal Register -->
-      <div class="portfolio-modal modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
+   </div>
+   <!-- /modal Login -->
+   <!-- Modal Register -->
+   <div class="portfolio-modal modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
          <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                <div class="lr">
-               <div class="rl"></div>
+                  <div class="rl"></div>
                </div>
             </div>
             <div class="container">
                <form class="form-register">
-                     <img class="logo-navi" src="assets/images/logo-120.jpeg" alt="" width="120" height="67">
-                     <h1>Registro Nuevo</h1>
-                     <div class="form-name">
-                        <label for="exampleInputEmail1">Ingresa tu nombre </label>
-                        <input type="name" class="form-control" id="InputName" aria-describedby="NameHelp" placeholder="Enter Name">
-                        <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo.</small>
-                     </div>
-                     <div class="form-email">
-                           <label for="InputEmail">Ingresa tu Email</label>
-                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                           <small id="emailHelp" class="form-text text-muted">Esta informacion es confidencial .</small>
-                           </div>
-                     <div class="form-password">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                     </div>
-                     <button type="submit" class="btn btn-primary">Submit</button>
+                  <img class="logo-navi" src="assets/images/logo-120.jpeg" alt="" width="120" height="67">
+                  <h1>Registro Nuevo</h1>
+                  <div class="form-name">
+                     <label for="exampleInputEmail1">Ingresa tu nombre </label>
+                     <input type="name" class="form-control" id="InputName" aria-describedby="NameHelp"
+                        placeholder="Enter Name">
+                     <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo.</small>
+                  </div>
+                  <div class="form-email">
+                     <label for="InputEmail">Ingresa tu Email</label>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                     <small id="emailHelp" class="form-text text-muted">Esta informacion es confidencial .</small>
+                  </div>
+                  <div class="form-password">
+                     <label for="exampleInputPassword1">Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
                </form>
             </div>
          </div>
-         </div>
       </div>
-       <!-- /modal Register -->
+   </div>
+   <!-- /modal Register -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Custom scripts for this template -->
-    <script src="js/index.js"></script>
-   </body>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script>
+      //Carousel speed transition -------->
+      $(document).ready(function () {
+         $('.carousel').carousel({
+            interval: 2500 // 2.5 Seconds
+         });
+      });
+   </script>
+
+   <!-- Custom scripts for this template -->
+   <script src="js/index.js"></script>
+</body>
+
 </html>
