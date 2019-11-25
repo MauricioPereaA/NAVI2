@@ -1,0 +1,110 @@
+body {
+  background-color: #1b1818;
+}
+
+.s-container {
+  background-image: url(assets/images/running.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.s-container h2 {
+  margin-top: 10vh;
+  padding: 0 40px;
+  color: #fff;
+}
+
+.s-content {
+  border-radius: 5px;
+  background-color: #fff;
+  height: 100%;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.s-content .image {
+  background-image: url(assets/images/bike3.jpg);
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.s-content .image .info {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-content .grid-think .item-grid {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.s-content .grid-think .item-grid p {
+  width: 50%;
+}
+
+.s-content .grid-think .item-grid-2 {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+.s-content .grid-think .item-grid-2 p {
+  width: 50%;
+}
+
+.s-content .grid-think .img-banner {
+  background-image: url(assets/images/backgrounds/bridge-1656035.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20vh;
+  color: #fff;
+}
+/*# sourceMappingURL=runners.css.map */

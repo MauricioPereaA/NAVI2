@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(27, 24, 24);
+}
+.s-container{
+    background-image: url(assets/images/running.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4em ;
+        text-transform: uppercase;
+    }
+    h2{
+        margin-top: 10vh;
+        padding: 0 40px;
+        color: #fff;
+    }
+}
+
+.s-content{
+    border-radius: 5px;
+
+    background-color: #fff;
+    height: 100%;
+    width: 80%;
+    margin: 50px auto;
+    
+    .image{
+        background-image: url(assets/images/bike3.jpg);
+        background-attachment: fixed;
+        height: 50vh;
+        .info{
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            background-color: rgba(0,0,0, .3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .grid-think{
+        .item-grid{
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            p{
+                width: 50%;
+            }
+        }
+        .item-grid-2{
+            padding: 0 30px;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            text-align: right;
+            p{
+                width: 50%;
+            }
+        }
+        .img-banner{
+            background-image: url(assets/images/backgrounds/bridge-1656035.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 20vh;
+            color: #fff;
+        }
+    }
+}
