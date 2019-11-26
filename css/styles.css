@@ -350,3 +350,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+/* Bikes */
+
+.img-h:hover {
+  opacity: .8;
+}
